@@ -1,0 +1,63 @@
+.btn-submit-comment {
+    padding: 8px 16px;
+    font-size: 14px;
+    width: auto;
+    height: auto;
+    line-height: normal;
+    display: inline-block;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+}
+
+.btn-submit-comment:focus,
+.btn-submit-comment:active {
+    outline: none;
+    box-shadow: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border: 1px solid transparent;
+}
+.pagination {
+  
+    display: flex; 
+    justify-content: left;
+    margin: 20px 0;
+    padding: 0;
+    list-style-type: none; 
+}
+
+.pagination a {
+  
+    color: white;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    padding: 10px 15px;
+    margin: 0 5px; /* فاصله بین دکمه‌ها */
+    
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.pagination a:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.pagination a.active {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    pointer-events: none;
+}
+
+.pagination a.disabled {
+    color: #6c757d;
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+    pointer-events: none;
+}
+.saveComment {
+    display: block;
+     margin: 0 auto;
+  
+}

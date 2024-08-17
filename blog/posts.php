@@ -1,0 +1,29 @@
+<?php
+
+class post
+{
+    public int $id;
+    public string $key;
+    public string $value;
+
+    public function __construct(int $id, string $key, string $value)
+    {
+
+        $this->id = $id;
+        $this->key = $key;
+        $this->value = $value;
+    }
+
+    public function getId(): int
+    {
+        return $this->id;
+    }
+    public function getKey(): string
+    {
+        return $this->key;
+    }
+    public function getValue(): string
+    {
+        return $this->value;
+    }
+}
